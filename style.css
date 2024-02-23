@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkred;
+}
+.selector{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#selectField{
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+#selectField img{
+    width: 12px;
+    transition: transform 0.8s;
+    
+}
+ul{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.7);
+    border-radius: 6px;
+    padding: 15px 20px;
+    /* margin-bottom: 15px; */
+    list-style: none;
+    /* display:none; */
+}
+li{
+    display: flex;
+    /* margin-bottom: 10px; */
+    /* margin-top: 10px; */
+    padding: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+li img{
+    width: 27px;
+    margin-right: 20px;
+}
+li p{
+    margin-right:10px;
+    letter-spacing: 1px;
+}
+.option:hover{
+    background: rgba(255,255,255,0.7);
+    /* padding: 6px; */
+    border-radius: 5px;
+}
+.hide{
+    visibility: hidden;
+}
+.rotate{
+    transform: rotate(180deg);
+}
